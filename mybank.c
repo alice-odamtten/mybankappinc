@@ -7,7 +7,7 @@ int main(void)
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 
     //create account - implement registration
-    printf("creat an account\n y or n\n");
+    printf("Create an account with us? y or n\n");
     fgets(buf, sizeof(buf), stdin);
 
     if (buf[0] == 'y')
