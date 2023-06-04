@@ -41,10 +41,10 @@ int main(void)
     scmp = strcmp(pword, comp);
     if (scmp != 0)
     {
+        printf("Password Incorrect\n");
+        printf("Try Again:\n");
         while (i >= 0)
         {
-            printf("Password Incorrect\n");
-            printf("Try Again:\n");
             printf("Create a password: \n");
             fgets(pword, sizeof(pword), stdin);
             printf("Confirm password: \n");
