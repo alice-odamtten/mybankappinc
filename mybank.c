@@ -1,4 +1,5 @@
 #include <stdio.h>
+void _password(void);
 
 int main(void)
 {
@@ -26,7 +27,7 @@ int main(void)
     }
 }
 //ask for password
- void _password(void);
+ void _password(void)
  {
     char pword[21], comp[21];
     int i = 3, pcorrect = 0;
