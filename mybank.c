@@ -35,5 +35,5 @@ int main(void)
     printf("Create a password: \n");
     fgets(pword, sizeof(pword), stdin);
     printf("Confirm password: \n");
-    fgets(compare, sizeof(compare), stdin);
+    fgets(comp, sizeof(comp), stdin);
  }
