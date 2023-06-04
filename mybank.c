@@ -6,6 +6,7 @@ void _credentials(void);
 int main(void)
 {
     char buf[4];
+    int check;
 
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 
@@ -16,7 +17,7 @@ int main(void)
     if (buf[0] == 'y')
     {
         _credentials();
-        _password();
+        check = _password();
     }
     else
     {
