@@ -56,6 +56,11 @@ int main(void)
                 pcorrect =1;
                 break;
             }
+            if (i > 0)
+               printf(" You have %d attempt left\n", i-1);
+            else
+               printf(" Sorry you cannot create an account\n");
+                      i--;
         }
     }
  }
