@@ -25,7 +25,7 @@ int main(void)
     {
         _credentials();
         check = _password();
-        if (check)
+        if (check == 1)
         {
            _welcome();
         }
@@ -85,5 +85,5 @@ void _credentials(void)
                       i--;
         }
     }
-    return (pcorrect);
+    return (pcorrect = 1);
  }
