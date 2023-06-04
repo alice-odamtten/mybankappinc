@@ -2,6 +2,9 @@
 
 int main(void)
 {
-    char first 
+    char firstname[50], lastname[50], othername[100];
+
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
+
+    //create account - implement registration
 }
