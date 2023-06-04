@@ -30,11 +30,18 @@ int main(void)
  void _password(void)
  {
     char pword[21], comp[21];
-    int i = 3, pcorrect = 0;
+    int i = 3, pcorrect = 0, scmp;
 
     printf("Create a password: \n");
     fgets(pword, sizeof(pword), stdin);
     printf("Confirm password: \n");
     fgets(comp, sizeof(comp), stdin);
-    
+
+    scmp = strcmp(pword, comp);
+    if ()
+    if (scmp == 0)
+    {
+        pcorrect =1;
+        break;
+    }
  }
