@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-void _password(void);
+int _password(void);
+void _credentials(void);
 
 int main(void)
 {
@@ -14,7 +15,7 @@ int main(void)
 
     if (buf[0] == 'y')
     {
-
+        _credentials();
         _password();
     }
     else
@@ -22,7 +23,7 @@ int main(void)
         printf("Login\n");
     }
 }
-//credential
+//credential - ask for name 
 void _credentials(void)
 {
     char firstname[50], lastname[50], othername[100];
@@ -35,7 +36,7 @@ void _credentials(void)
         fgets(othername, sizeof(othername), stdin);
 }
 //ask for password
- void _password(void)
+ int _password(void)
  {
     char pword[21], comp[21];
     int i = 3, pcorrect = 0, scmp;
