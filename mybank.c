@@ -3,6 +3,8 @@
 int main(void)
 {
     char firstname[50], lastname[50], othername[100], buf[4];
+    char pword[21], comp[21];
+    int i = 3, pcorrect = 0;
 
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 
@@ -23,4 +25,6 @@ int main(void)
     {
         printf("Login\n");
     }
+
+    //ask for password
 }
