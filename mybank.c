@@ -19,7 +19,7 @@ int main(void)
         fgets(lastname, sizeof(lastname), stdin);
         printf("Enter other name: \n");
         fgets(othername, sizeof(othername), stdin);
-        _password;
+        _password();
     }
     else
     {
