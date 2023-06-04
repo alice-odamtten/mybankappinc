@@ -23,7 +23,7 @@ int main(void)
         printf("Login\n");
     }
 }
-//credential - ask for name 
+//credential - ask for name
 void _credentials(void)
 {
     char firstname[50], lastname[50], othername[100];
@@ -62,13 +62,16 @@ void _credentials(void)
             if (scmp == 0)
             {
                 pcorrect =1;
+                return (pcorrect);
                 break;
             }
             if (i > 0)
                printf(" You have %d attempt left\n", i-1);
             else
                printf(" Sorry you cannot create an account\n");
+               return (0);
                       i--;
         }
     }
+    return (pcorrect);
  }
