@@ -43,7 +43,7 @@ int main(void)
         while (i >= 0)
         {
             printf("Password Incorrect\n");
-            printf("Try Again");
+            printf("Try Again:\n");
         }
     }
     if (scmp == 0)
