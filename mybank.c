@@ -36,4 +36,5 @@ int main(void)
     fgets(pword, sizeof(pword), stdin);
     printf("Confirm password: \n");
     fgets(comp, sizeof(comp), stdin);
+    
  }
