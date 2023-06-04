@@ -3,6 +3,12 @@
 int _password(void);
 void _credentials(void);
 
+void _welcome(void)
+{
+    char option[4];
+    printf()
+}
+
 int main(void)
 {
     char buf[4];
