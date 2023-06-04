@@ -7,4 +7,5 @@ int main(void)
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 
     //create account - implement registration
+    printf("creat an acount\n )
 }
