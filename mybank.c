@@ -38,7 +38,10 @@ int main(void)
     fgets(comp, sizeof(comp), stdin);
 
     scmp = strcmp(pword, comp);
-    if ()
+    if (scmp != 0)
+    _{
+        
+    }
     if (scmp == 0)
     {
         pcorrect =1;
