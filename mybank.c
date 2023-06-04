@@ -39,8 +39,12 @@ int main(void)
 
     scmp = strcmp(pword, comp);
     if (scmp != 0)
-    _{
-        
+    {
+        while (i >= 0)
+        {
+            printf("Password Incorrect\n");
+            printf("Try Again");
+        }
     }
     if (scmp == 0)
     {
