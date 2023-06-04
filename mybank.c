@@ -44,11 +44,17 @@ int main(void)
         {
             printf("Password Incorrect\n");
             printf("Try Again:\n");
+            printf("Create a password: \n");
+            fgets(pword, sizeof(pword), stdin);
+            printf("Confirm password: \n");
+            fgets(comp, sizeof(comp), stdin);
+
+            scmp = strcmp(pword, comp);
+            if (scmp == 0)
+            {
+                pcorrect =1;
+                break;
+            }
         }
-    }
-    if (scmp == 0)
-    {
-        pcorrect =1;
-        break;
     }
  }
