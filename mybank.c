@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("Hello, Welcome To Jireh Bank. Banking in your home\n");
+    printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 }
