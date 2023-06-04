@@ -3,4 +3,4 @@
 
 ## AUTHOR
 
-tis is developedby Alice Odamtten
+this is developedby Alice Odamtten
