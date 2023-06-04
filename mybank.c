@@ -4,7 +4,7 @@ void _password(void);
 
 int main(void)
 {
-    char firstname[50], lastname[50], othername[100], buf[4];
+    char buf[4];
 
     printf("\nHello, Welcome To Jireh Bank. Banking in your home\n");
 
@@ -14,12 +14,7 @@ int main(void)
 
     if (buf[0] == 'y')
     {
-        printf("Enter first name: \n");
-        fgets(firstname, sizeof(firstname), stdin);
-        printf("Enter last name: \n");
-        fgets(lastname, sizeof(lastname), stdin);
-        printf("Enter other name: \n");
-        fgets(othername, sizeof(othername), stdin);
+
         _password();
     }
     else
@@ -28,7 +23,17 @@ int main(void)
     }
 }
 //credential
+void _credentials(void)
+{
+    char firstname[50], lastname[50], othername[100];
 
+        printf("Enter first name: \n");
+        fgets(firstname, sizeof(firstname), stdin);
+        printf("Enter last name: \n");
+        fgets(lastname, sizeof(lastname), stdin);
+        printf("Enter other name: \n");
+        fgets(othername, sizeof(othername), stdin);
+}
 //ask for password
  void _password(void)
  {
