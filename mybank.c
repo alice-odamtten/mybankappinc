@@ -9,7 +9,13 @@ void _welcome(void)
     printf("\n Account is created successfully\n");
     printf("You have a fixed deposit of $50\n");
 
-    
+    while (1){
+        printf();
+        printf();
+        printf();
+        printf();
+        printf();
+    }
 }
 
 int main(void)
