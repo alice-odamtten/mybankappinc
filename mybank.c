@@ -13,6 +13,14 @@ int main(void)
     if (buf == 'y')
     {
         printf("Enter first name: \n");
-        
+        fgets(firstname, sizeof(firstname), stdin);
+        printf("Enter last name: \n");
+        fgets(lastname, sizeof(lastname), stdin);
+        printf("Enter other name: \n");
+        fgets(othername, sizeof(othername), stdin);
+    }
+    else
+    {
+        printf("Login\n");
     }
 }
