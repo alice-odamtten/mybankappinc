@@ -6,7 +6,7 @@ void _credentials(void);
 void _welcome(void)
 {
     char option[4];
-    printf()
+    printf("\n Account is created successfully\n");
 }
 
 int main(void)
