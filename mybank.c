@@ -8,6 +8,8 @@ void _welcome(void)
     char option[4];
     printf("\n Account is created successfully\n");
     printf("You have a fixed deposit of $50\n");
+
+    
 }
 
 int main(void)
